@@ -85,7 +85,7 @@ public class CandySpawner : MonoBehaviour
 
     public void StopCandies()
     {
-        StopCoroutine("SpawnCandies");
+        StopAllCoroutines();
     }
 
     public void turnLeft()
